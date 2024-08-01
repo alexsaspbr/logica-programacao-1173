@@ -2,10 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
         String [] nomes = {
-                "Alex"
-                ,"Lucas Kaique"
-                ,"Cassio"
+                "Alex Araujo"
+                ,"Cassio Kendi"
+                ,"Karine"
+                ,"Larissa"
                 ,"Arthur"
+                ,"Lucas Kaique"
         };
         for(String nome : nomes)
             System.out.printf("Ola %s! \n", nome);
