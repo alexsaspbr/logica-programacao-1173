@@ -4,7 +4,7 @@ public class Main {
         String [] nomes = {
                 "Alex"
                 ,"Cassio"
-                ,"Priscila"
+                ,"Priscila Santos"
         };
         for(String nome : nomes)
             System.out.printf("Ola %s! \n", nome);
