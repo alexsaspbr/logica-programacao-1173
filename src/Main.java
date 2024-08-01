@@ -4,7 +4,7 @@ public class Main {
         String [] nomes = {
                 "Alex Araujo"
                 ,"Cassio Kendi"
-                ,"Karine"
+                ,"Karine Amorim"
                 ,"Larissa"
         };
         for(String nome : nomes)
