@@ -4,13 +4,9 @@ public class Main {
         String [] nomes = {
                 "Alex Araujo"
                 ,"Cassio"
-<<<<<<< HEAD
-
-                ,"Allana"
-=======
                 ,"Karine"
                 ,"Larissa"
->>>>>>> b56cfa0939dcc94748924030286c83756ae7351a
+                ,"Allana"
         };
         for(String nome : nomes)
             System.out.printf("Ola %s! \n", nome);
