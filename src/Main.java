@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         String [] nomes = {
-                "Alex"
+                "Alex Araujo"
                 ,"Cassio"
         };
         for(String nome : nomes)
