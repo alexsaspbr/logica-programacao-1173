@@ -6,6 +6,7 @@ public class Main {
                 ,"Cassio Kendi"
                 ,"Karine"
                 ,"Larissa"
+                ,"Matheus Gomes"
         };
         for(String nome : nomes)
             System.out.printf("Ola %s! \n", nome);
