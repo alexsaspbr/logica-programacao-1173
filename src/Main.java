@@ -6,7 +6,6 @@ public class Main {
                 ,"Cassio Kendi"
                 ,"Karine"
                 ,"Larissa"
-                ,"Arthur"
                 ,"Lucas Kaique"
         };
         for(String nome : nomes)
