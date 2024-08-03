@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Double salario = Double.parseDouble(args[0]);
-        Util.inss(salario);
+        System.out.printf("O inss para o salario de R$%.2f é R$%.2f \n",
+                                                salario, Util.inss(salario));
 
     }
 
