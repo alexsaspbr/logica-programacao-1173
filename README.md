@@ -38,3 +38,11 @@ A menor nota é: 50
 A maior nota é: 90
 A média das notas é: 71
 ```
+
+----
+
+Exercicio 3
+
+Faça um programa que pede para a usuária digitar um número inteiro positivo. Seu programa deverá responder a soma de do número com todos os seus antecessores positivos.
+
+Ex: se o número digitado for 5, a conta a ser realizada será 5 + 4 + 3 + 2 + 1, e o resultado na tela será "15".
