@@ -38,3 +38,35 @@ A menor nota é: 50
 A maior nota é: 90
 A média das notas é: 71
 ```
+
+----
+
+Exercicio 4
+
+Faça um programa que imprima os números de 1 a 100, porém com as seguintes condições:
+- Caso o número for divisível por 3 imprimir Fizz no lugar do número;
+- Caso o número for divisível por 5 imprimir Buzz no lugar do número;
+- Caso o número for divisível por 3 e 5 imprimir FizzBuzz no lugar do número;
+
+Exemplo:
+
+```language
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+...
+```
+
+
