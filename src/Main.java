@@ -1,28 +1,25 @@
-import java.math.BigDecimal;
+import ada.modelos.Pessoa;
+import ada.modelos.PessoaFisica;
+import ada.utilitario.Util;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Double salario = Double.parseDouble(args[0]);
-        System.out.printf("O inss para o salario de R$%.2f é R$%.2f \n",
-                                                salario, Util.inss(salario));
+        Pessoa pessoa = new Pessoa("Alex", "alex@ada.tech");
+        PessoaFisica pessoaFisica = new PessoaFisica("Alex", "alex@ada.tech");
 
+        pessoa.getNome();
+        pessoaFisica.getNome();
+/*        pessoa.metodoDefault();
+        pessoa.ninguemVaiAcessarSomentePessoa();
+        pessoaFisica.getEmail();*/
+
+        //Util.SELIC = 2d;
+
+        //System.out.println(Util.leituraEscrita("Qual o seu nome?"));
+        Util.escrita(Util.leitura("Qual o seu nome?"));
     }
 
-
-
-
-}
-
-class Util {
-
-    public static Double inss(Double salario) {
-
-        return (salario <= 1212) ? salario * 0.075 :
-                      (salario <= 2427.35) ? salario * 0.09 :
-                      (salario <= 3641.03) ? salario * 0.12 : salario * 0.14;
-
-    }
 
 }

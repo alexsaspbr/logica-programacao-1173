@@ -46,3 +46,33 @@ Exercicio 3
 Faça um programa que pede para a usuária digitar um número inteiro positivo. Seu programa deverá responder a soma de do número com todos os seus antecessores positivos.
 
 Ex: se o número digitado for 5, a conta a ser realizada será 5 + 4 + 3 + 2 + 1, e o resultado na tela será "15".
+
+----
+
+Exercicio 4
+
+Faça um programa que imprima os números de 1 a 100, porém com as seguintes condições:
+- Caso o número for divisível por 3 imprimir Fizz no lugar do número;
+- Caso o número for divisível por 5 imprimir Buzz no lugar do número;
+- Caso o número for divisível por 3 e 5 imprimir FizzBuzz no lugar do número;
+
+Exemplo:
+
+```language
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+...
+```
