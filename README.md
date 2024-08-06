@@ -76,3 +76,46 @@ Fizz
 FizzBuzz
 ...
 ```
+
+----
+
+Exercicio 5
+
+Crie um enum chamado UnidadeTemperatura representando unidades de temperatura (CELSIUS, FAHRENHEIT, KELVIN).
+
+Escreva um programa que utiliza um Scanner para obter a unidade de temperatura atual do usuário e a unidade desejada, pedindo a temperatura atual e imprimindo a temperatura convertida.
+
+CELSIUS:
+F -> (celsius * 9 / 5) + 32
+K -> celsius + 273.15
+
+FAHRENHEIT:
+C -> (fehrenheit - 32) * 5 / 9
+k -> (fehrenheit + 459.67) * 5 / 9
+
+OBS: Utilizar Enum com metodos abstratos (desafio)
+
+----
+
+Exercicio 6
+
+Pergunte para a usuária o valor que será investido em uma aplicação, a taxa de juros ao mês e o tempo que o dinheiro ficará aplicado.
+
+Seu programa deverá exibir quanto de juros será pago e o saldo total em cada mês.
+
+Exemplo:
+
+```language
+Informe o valor inicial investido em R$.
+10000,00
+Informe o juros ao mês em %.
+5
+Informe o tempo em meses que o dinheiro ficará investido.
+3
+
+10000.0 reais, 5% de juros ao mês por 3 meses.
+
+Mês 1: Juros: R$ 500.0 , saldo: 10500.0 
+Mês 2: Juros: R$ 525.0 , saldo: 11025.0 
+Mês 3: Juros: RS 551.25 , saldo: 11576.25 
+```
