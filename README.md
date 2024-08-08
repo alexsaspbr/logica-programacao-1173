@@ -119,3 +119,16 @@ Mês 1: Juros: R$ 500.0 , saldo: 10500.0
 Mês 2: Juros: R$ 525.0 , saldo: 11025.0 
 Mês 3: Juros: RS 551.25 , saldo: 11576.25 
 ```
+
+----
+
+Exercicio 7
+
+Crie um programa em Java que recebe o tamanho da linha e coluna para definir uma matriz de números inteiros, na sequência, solicitar ao usuário os valores de cada elemento e logo depois, encontrar o maior elemento dentro desta matriz e informar ao usuário.
+
+
+Exemplo de entrada:
+[1,50,6][55,100,2][20,7,9]
+
+Saída: O maior elemento da matriz é: 100
+
