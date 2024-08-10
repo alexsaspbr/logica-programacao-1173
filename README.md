@@ -147,3 +147,18 @@ Sua saída deverá ser parecida com a abaixo:
 Os valores da diagonal principal são 1, 5, 9 e a soma é: 15
 
 ```
+
+Exercicio 9
+
+Implemente um programa que realiza a leitura de um arquivo. Utilize try-catch para lidar com possíveis exceções de leitura do arquivo e garanta que o arquivo seja fechado no bloco finally.
+
+Biblioteca para leitura:
+
+BufferedReader
+FileReader
+
+----
+
+Exercicio 10
+
+Crie um programa que solicite ao usuário para digitar uma frase ou número, realize a leitura e utilize um bloco try-catch para verificar se a string representa um número inteiro válido.

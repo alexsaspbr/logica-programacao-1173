@@ -30,4 +30,13 @@ public class Util {
         System.out.println("A resposta para sua solicitacao é " + mensagem);
     }
 
+    public static Integer convertaLiteralParaNumero(String literal) {
+        try {
+            return Integer.parseInt(literal);
+        } catch(Exception e) {
+            System.err.println(e.getMessage());
+            return null;
+        }
+    }
+
 }
